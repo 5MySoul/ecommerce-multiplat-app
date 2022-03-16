@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.csproj": {}
+    "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Service\\Ecommerce-multiplat-app.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.csproj": {
+    "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Service\\Ecommerce-multiplat-app.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.csproj",
-        "projectName": "Ecommerce-multiplat-app",
-        "projectPath": "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.csproj",
+        "projectUniqueName": "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Service\\Ecommerce-multiplat-app.Service.csproj",
+        "projectName": "Ecommerce-multiplat-app.Service",
+        "projectPath": "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Service\\Ecommerce-multiplat-app.Service.csproj",
         "packagesPath": "C:\\Users\\Tran Tin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\obj\\",
+        "outputPath": "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,26 +43,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -74,9 +54,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
