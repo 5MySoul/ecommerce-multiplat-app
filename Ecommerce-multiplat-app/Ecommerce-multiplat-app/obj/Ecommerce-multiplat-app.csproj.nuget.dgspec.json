@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.csproj": {}
+    "D:\\Projects\\MoneyProject\\ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.csproj": {
+    "D:\\Projects\\MoneyProject\\ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.csproj",
+        "projectUniqueName": "D:\\Projects\\MoneyProject\\ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.csproj",
         "projectName": "Ecommerce-multiplat-app",
-        "projectPath": "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.csproj",
-        "packagesPath": "C:\\Users\\Tran Tin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\obj\\",
+        "projectPath": "D:\\Projects\\MoneyProject\\ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.csproj",
+        "packagesPath": "C:\\Users\\J.K Nguyen\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\MoneyProject\\ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tran Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\J.K Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,21 +42,25 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.0, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.3.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

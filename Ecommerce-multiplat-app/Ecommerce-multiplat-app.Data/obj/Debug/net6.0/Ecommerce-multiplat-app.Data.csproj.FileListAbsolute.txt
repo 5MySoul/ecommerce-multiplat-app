@@ -1,0 +1,12 @@
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Data\bin\Debug\net6.0\Ecommerce-multiplat-app.Data.deps.json
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Data\bin\Debug\net6.0\Ecommerce-multiplat-app.Data.dll
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Data\bin\Debug\net6.0\Ecommerce-multiplat-app.Data.pdb
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Data\obj\Debug\net6.0\Ecommerce-multiplat-app.Data.csproj.AssemblyReference.cache
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Data\obj\Debug\net6.0\Ecommerce-multiplat-app.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Data\obj\Debug\net6.0\Ecommerce-multiplat-app.Data.AssemblyInfoInputs.cache
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Data\obj\Debug\net6.0\Ecommerce-multiplat-app.Data.AssemblyInfo.cs
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Data\obj\Debug\net6.0\Ecommerce-multiplat-app.Data.csproj.CoreCompileInputs.cache
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Data\obj\Debug\net6.0\Ecommerce-multiplat-app.Data.dll
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Data\obj\Debug\net6.0\refint\Ecommerce-multiplat-app.Data.dll
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Data\obj\Debug\net6.0\Ecommerce-multiplat-app.Data.pdb
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Data\obj\Debug\net6.0\ref\Ecommerce-multiplat-app.Data.dll

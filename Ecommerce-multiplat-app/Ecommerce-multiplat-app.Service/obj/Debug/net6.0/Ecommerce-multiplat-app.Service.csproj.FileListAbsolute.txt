@@ -1,0 +1,12 @@
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\bin\Debug\net6.0\Ecommerce-multiplat-app.Service.deps.json
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\bin\Debug\net6.0\Ecommerce-multiplat-app.Service.dll
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\bin\Debug\net6.0\Ecommerce-multiplat-app.Service.pdb
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\Ecommerce-multiplat-app.Service.csproj.AssemblyReference.cache
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\Ecommerce-multiplat-app.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\Ecommerce-multiplat-app.Service.AssemblyInfoInputs.cache
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\Ecommerce-multiplat-app.Service.AssemblyInfo.cs
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\Ecommerce-multiplat-app.Service.csproj.CoreCompileInputs.cache
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\Ecommerce-multiplat-app.Service.dll
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\refint\Ecommerce-multiplat-app.Service.dll
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\Ecommerce-multiplat-app.Service.pdb
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\ref\Ecommerce-multiplat-app.Service.dll

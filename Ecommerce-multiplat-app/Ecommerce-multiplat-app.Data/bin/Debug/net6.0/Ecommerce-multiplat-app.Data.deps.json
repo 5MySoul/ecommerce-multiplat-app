@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ecommerce-multiplat-app.Data/1.0.0": {
+        "runtime": {
+          "Ecommerce-multiplat-app.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ecommerce-multiplat-app.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

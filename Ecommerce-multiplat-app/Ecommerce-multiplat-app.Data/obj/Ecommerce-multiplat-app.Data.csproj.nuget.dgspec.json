@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Data\\Ecommerce-multiplat-app.Data.csproj": {}
+    "D:\\Projects\\MoneyProject\\ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Data\\Ecommerce-multiplat-app.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Data\\Ecommerce-multiplat-app.Data.csproj": {
+    "D:\\Projects\\MoneyProject\\ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Data\\Ecommerce-multiplat-app.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Data\\Ecommerce-multiplat-app.Data.csproj",
+        "projectUniqueName": "D:\\Projects\\MoneyProject\\ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Data\\Ecommerce-multiplat-app.Data.csproj",
         "projectName": "Ecommerce-multiplat-app.Data",
-        "projectPath": "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Data\\Ecommerce-multiplat-app.Data.csproj",
-        "packagesPath": "C:\\Users\\Tran Tin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tran Tin\\source\\repos\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Data\\obj\\",
+        "projectPath": "D:\\Projects\\MoneyProject\\ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Data\\Ecommerce-multiplat-app.Data.csproj",
+        "packagesPath": "C:\\Users\\J.K Nguyen\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\MoneyProject\\ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tran Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\J.K Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
