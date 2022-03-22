@@ -1,8 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "YmgL+ceoXqmQaie0niW39SXxr3clo6mD8KFq+ZbO6PuY0HVpRhXuApLfXmJ6x95pDWas4q3qt4SRO1coxMgH9A==",
+  "dgSpecHash": "X6fVYnfzOl6o1z2gAG4RmQJi1HQCyu+VYlOGe/oVwq3yMs2OtxhWawTR9OqPoQQoHD84Vm2/D7XJo22UWYj7aQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\MoneyProject\\ecommerce-multiplat-app\\Ecommerce-multiplat-app\\Ecommerce-multiplat-app.Service\\Ecommerce-multiplat-app.Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.3\\microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.3\\microsoft.entityframeworkcore.analyzers.6.0.3.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.3\\microsoft.entityframeworkcore.design.6.0.3.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.3\\microsoft.entityframeworkcore.relational.6.0.3.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.3\\microsoft.entityframeworkcore.tools.6.0.3.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\J.K Nguyen\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

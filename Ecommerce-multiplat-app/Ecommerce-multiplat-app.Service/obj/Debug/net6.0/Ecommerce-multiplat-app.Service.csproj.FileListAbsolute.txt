@@ -10,3 +10,5 @@ D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommer
 D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\refint\Ecommerce-multiplat-app.Service.dll
 D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\Ecommerce-multiplat-app.Service.pdb
 D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\ref\Ecommerce-multiplat-app.Service.dll
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\bin\Debug\net6.0\Ecommerce-multiplat-app.Service.runtimeconfig.json
+D:\Projects\MoneyProject\ecommerce-multiplat-app\Ecommerce-multiplat-app\Ecommerce-multiplat-app.Service\obj\Debug\net6.0\Ecommerce-multiplat-app.Service.genruntimeconfig.cache
