@@ -10,7 +10,7 @@ using Ecommerce_multiplat_app.Models;
 
 namespace Ecommerce_multiplat_app.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/{action}")]
     [ApiController]
     public class WcbcoreNhomSanPhamController : ControllerBase
     {
@@ -21,25 +21,29 @@ namespace Ecommerce_multiplat_app.Controllers
             _context = context;
         }
 
-        // GET: api/WcbcoreNhomSanPham
+        // GET: api/WcbcoreNhomSanPham/GetCategories
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<WcbcoreNhomSanPham>>> GetWcbcoreNhomSanPhams()
+        public async Task<ActionResult<IEnumerable<WcbcoreNhomSanPham>>> GetCategories()
         {
-            return await _context.WcbcoreNhomSanPhams.ToListAsync();
+            var categories = await _context.WcbcoreNhomSanPhams
+                          .Where(c => c.LopTrenId == null)
+                          .ToListAsync();
+            return categories;
         }
 
-        // GET: api/WcbcoreNhomSanPham/5
+        // GET: api/WcbcoreNhomSanPham/GetSubCategory
         [HttpGet("{id}")]
-        public async Task<ActionResult<WcbcoreNhomSanPham>> GetWcbcoreNhomSanPham(Guid id)
+        public async Task<ActionResult<IEnumerable<WcbcoreNhomSanPham>>> GetSubCategory(Guid id)
         {
-            var wcbcoreNhomSanPham = await _context.WcbcoreNhomSanPhams.FindAsync(id);
+            var category = _context.WcbcoreNhomSanPhams
+                .Where(s => s.LopTrenId == id);
 
-            if (wcbcoreNhomSanPham == null)
+            if (category == null)
             {
                 return NotFound();
             }
 
-            return wcbcoreNhomSanPham;
+            return Ok(await category.ToListAsync());
         }
 
         // PUT: api/WcbcoreNhomSanPham/5
