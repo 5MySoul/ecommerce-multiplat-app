@@ -10,7 +10,7 @@ using Ecommerce_multiplat_app.Models;
 
 namespace Ecommerce_multiplat_app.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/{action}")]
     [ApiController]
     public class WcbcoreSanPhamController : ControllerBase
     {
@@ -23,14 +23,83 @@ namespace Ecommerce_multiplat_app.Controllers
 
         // GET: api/WcbcoreSanPham
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<WcbcoreSanPham>>> GetWcbcoreSanPhams()
+        public async Task<ActionResult<IEnumerable<WcbcoreSanPham>>> GetProducts()
         {
             return await _context.WcbcoreSanPhams.ToListAsync();
         }
 
+        [HttpGet]
+        public async Task<IEnumerable<WcbcoreSanPham>> GetMostViewProducts()
+        {
+            var products = await _context.WcbcoreSanPhams
+                                        .OrderByDescending(x => x.SoLuongXem)
+                                        .Take(6).ToListAsync();
+
+            return products;
+        }
+
+        
+
+        [HttpGet("{nhomChinhId}")]
+        public async Task<IEnumerable<WcbcoreSanPham>> GetProductsByCategory(Guid nhomChinhId)
+        {
+            var products = _context.WcbcoreSanPhams
+                                .Where(x => x.NhomChinhId == nhomChinhId)
+                                .ToListAsync();
+            return await products;
+        }
+
+        [HttpGet("{nhomChinhId}")]
+        public async Task<IEnumerable<WcbcoreSanPham>> GetMostViewProductsByCategory(Guid nhomChinhId)
+        {
+            var products = await _context.WcbcoreSanPhams
+                                .Where(x => x.NhomChinhId == nhomChinhId)
+                                .ToListAsync();
+            var mostViewProducts = products
+                                   .OrderByDescending(x => x.SoLuongXem)
+                                   .Take(6);
+
+            return mostViewProducts;
+        }
+
+        [HttpGet("{nhomId}")]
+        public async Task<IEnumerable<WcbcoreSanPham>> GetProductsBySubCategory(Guid nhomId)
+        {
+            var products = _context.WcbcoreSanPhams
+                                .Where(x => x.NhomId == nhomId)
+                                .ToListAsync();
+            return await products;
+        }
+
+        [HttpGet("{nhomId}")]
+        public async Task<IEnumerable<WcbcoreSanPham>> GetMostViewProductsBySubCategory(Guid nhomId)
+        {
+            var products = await _context.WcbcoreSanPhams
+                                .Where(x => x.NhomId == nhomId)
+                                .ToListAsync();
+            var mostViewProducts = products
+                                   .OrderByDescending(x => x.SoLuongXem)
+                                   .Take(6);
+
+            return mostViewProducts;
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<string>> GetProductImage(Guid id)
+        {
+            var imageURL =  _context.WcbcoreSanPhams
+                                .Where(x => x.Id == id)
+                                .Select(p => p.HinhAnh);
+            if (imageURL == null)
+            {
+                return NotFound();
+            }
+            return imageURL.FirstOrDefault();
+        }
+
         // GET: api/WcbcoreSanPham/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<WcbcoreSanPham>> GetWcbcoreSanPham(Guid id)
+        public async Task<ActionResult<WcbcoreSanPham>> GetProductDetail(Guid id)
         {
             var wcbcoreSanPham = await _context.WcbcoreSanPhams.FindAsync(id);
 
@@ -41,6 +110,8 @@ namespace Ecommerce_multiplat_app.Controllers
 
             return wcbcoreSanPham;
         }
+
+        
 
         // PUT: api/WcbcoreSanPham/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754

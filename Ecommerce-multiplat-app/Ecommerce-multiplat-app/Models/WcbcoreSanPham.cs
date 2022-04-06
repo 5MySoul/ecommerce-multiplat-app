@@ -33,6 +33,9 @@ namespace Ecommerce_multiplat_app.Models
         public byte? HoatDong { get; set; }
         public string? MaLienKet { get; set; }
         public Guid? NhomId { get; set; }
+
+        public WcbcoreNhomSanPham WcbcoreNhomSanPham { get; set; }
+
         public string? HinhAnh { get; set; }
         public string? HinhAnhKhac { get; set; }
         public string? TenNhom { get; set; }
