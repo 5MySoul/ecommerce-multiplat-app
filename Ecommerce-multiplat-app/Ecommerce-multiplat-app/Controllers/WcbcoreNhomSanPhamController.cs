@@ -43,30 +43,34 @@ namespace Ecommerce_multiplat_app.Controllers
             //List<WcbcoreNhomSanPham> categories = new List<WcbcoreNhomSanPham>();
             //foreach (var c in top6CategoriesId)
             //{
-            //    categories.Add(_context.wcb)
+            //    categories.Add(await _context.WcbcoreNhomSanPhams.FirstOrDefaultAsync(p => p.Id == c));
             //}
 
-            var top6Categories = await _context.WcbcoreNhomSanPhams.Where(c => top6CategoriesId.Contains(c.Id)).ToListAsync());
+            var top6Categories = _context.WcbcoreNhomSanPhams
+                                .Where(c => top6CategoriesId.Contains(c.Id))
+                                .ToListAsync();
 
 
-            return top6Categories;
+            return await top6Categories;
         }
 
         // GET: api/WcbcoreNhomSanPham/GetSubCategory
         [HttpGet("{id}")]
-        public async Task<ActionResult<IEnumerable<WcbcoreNhomSanPham>>> GetSubCategory(Guid id)
+        public async Task<ActionResult<IEnumerable<WcbcoreNhomSanPham>>> GetSubCategory()
         {
-            var category = _context.WcbcoreNhomSanPhams
-                .Where(s => s.LopTrenId == id);
+            //{
+            //    var category = _context.WcbcoreNhomSanPhams
+            //        .Where(s => s.LopTrenId == id);
 
-            if (category == null)
-            {
-                return NotFound();
-            }
+            //    if (category == null)
+            //    {
+            //        return NotFound();
+            //    }
 
-            return Ok(await category.ToListAsync());
+            //    return Ok(await category.ToListAsync());
+            //}
+            return await _context.WcbcoreNhomSanPhams.Include(c => c.LopTren).Where(c => c.LopTrenId != null).ToListAsync();
         }
-
         // PUT: api/WcbcoreNhomSanPham/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
