@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace Ecommerce_multiplat_app.Models
 {
@@ -32,6 +33,7 @@ namespace Ecommerce_multiplat_app.Models
         public string? HinhAnh { get; set; }
 
         public virtual WcbcoreNhomSanPham? LopTren { get; set; }
+        [JsonIgnore]
         public virtual ICollection<WcbcoreNhomSanPham> InverseLopTren { get; set; }
         public virtual ICollection<WcbcoreSanPham> WcbcoreSanPhamNhomChinhs { get; set; }
         public virtual ICollection<WcbcoreSanPham> WcbcoreSanPhamNhoms { get; set; }

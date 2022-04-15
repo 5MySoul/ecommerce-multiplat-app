@@ -43,13 +43,15 @@ namespace Ecommerce_multiplat_app.Controllers
             //List<WcbcoreNhomSanPham> categories = new List<WcbcoreNhomSanPham>();
             //foreach (var c in top6CategoriesId)
             //{
-            //    categories.Add(_context.wcb)
+            //    categories.Add(await _context.WcbcoreNhomSanPhams.FirstOrDefaultAsync(p => p.Id == c));
             //}
 
-            var top6Categories = await _context.WcbcoreNhomSanPhams.Where(c => top6CategoriesId.Contains(c.Id)).ToListAsync());
+            var top6Categories = _context.WcbcoreNhomSanPhams
+                                .Where(c => top6CategoriesId.Contains(c.Id))
+                                .ToListAsync();
 
 
-            return top6Categories;
+            return await top6Categories;
         }
 
         // GET: api/WcbcoreNhomSanPham/GetSubCategory
