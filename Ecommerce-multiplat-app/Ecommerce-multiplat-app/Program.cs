@@ -1,4 +1,4 @@
-using Ecommerce_multiplat_app.Models;
+﻿using Ecommerce_multiplat_app.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 //Inject DbContext
 builder.Services.AddDbContext<wtopshoppingcoreContext>(options =>
@@ -18,6 +17,11 @@ builder.Services.AddCors((setup) =>
 {
     setup.AddPolicy("default", (options) =>
     {
+        //Khi nào đặt hosting thì sửa lại phần domain
+        //options.WithOrigins("https://localhost:7121/", "")
+        //    .AllowAnyHeader()
+        //    .AllowAnyMethod();
+
         options.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
     });
 });
@@ -27,8 +31,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    
 }
 
 app.UseHttpsRedirection();

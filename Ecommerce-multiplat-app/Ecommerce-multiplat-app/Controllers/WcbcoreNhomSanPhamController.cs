@@ -36,7 +36,7 @@ namespace Ecommerce_multiplat_app.Controllers
         {
             var top6CategoriesId = await _context.WcbcoreSanPhams                                        
                                         .OrderByDescending(x => x.SoLuongXem)
-                                        .Select(c => c.NhomId)
+                                        .Select(c => c.NhomChinhId)
                                         .Distinct()
                                         .Take(6)
                                         .ToListAsync();
@@ -55,7 +55,7 @@ namespace Ecommerce_multiplat_app.Controllers
         }
 
         // GET: api/WcbcoreNhomSanPham/GetSubCategory
-        [HttpGet("{id}")]
+        [HttpGet]
         public async Task<ActionResult<IEnumerable<WcbcoreNhomSanPham>>> GetSubCategory()
         {
             //{
@@ -71,6 +71,17 @@ namespace Ecommerce_multiplat_app.Controllers
             //}
             return await _context.WcbcoreNhomSanPhams.Include(c => c.LopTren).Where(c => c.LopTrenId != null).ToListAsync();
         }
+
+        // GET: api/WcbcoreNhomSanPham/GetSubCategory
+        [HttpGet("{id}")]
+        public async Task<ActionResult<IEnumerable<WcbcoreNhomSanPham>>> GetSubCategory(string id)
+        {
+            var subCategories = _context.WcbcoreNhomSanPhams.Where(c => c.LopTrenId.ToString() == id).ToList();
+
+
+            return subCategories;
+        }
+
         // PUT: api/WcbcoreNhomSanPham/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
