@@ -42,6 +42,17 @@ namespace Ecommerce_multiplat_app.Controllers
             return wcbcoreDonHangBanLe;
         }
 
+        //Thêm 1 đơn hàng bán lẻ
+        [HttpPost]
+        public async Task<ActionResult> AddDonHangBanLe([FromBody] WcbcoreDonHangBanLe donHangBanLe)
+        {
+            donHangBanLe.Id = Guid.NewGuid();
+            await _context.WcbcoreDonHangBanLes.AddAsync(donHangBanLe);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetWcbcoreDonHangBanLe), donHangBanLe.Id, donHangBanLe);
+        }
+
         // PUT: api/WcbcoreDonHangBanLe/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]

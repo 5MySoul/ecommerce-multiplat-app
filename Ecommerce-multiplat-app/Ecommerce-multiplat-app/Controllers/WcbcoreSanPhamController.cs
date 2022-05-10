@@ -21,11 +21,29 @@ namespace Ecommerce_multiplat_app.Controllers
             _context = context;
         }
 
-        // GET: api/WcbcoreSanPham
+        // GET: api/WcbcoreSanPham/GetProducts
         [HttpGet]
         public async Task<ActionResult<IEnumerable<WcbcoreSanPham>>> GetProducts()
         {
             return await _context.WcbcoreSanPhams.ToListAsync();
+        }
+
+        // GET: api/WcbcoreSanPham/GetProducts?currentPage=&numberOfItem=
+        [HttpGet("{currentPage},{numberOfItem}")]
+        public async Task<ActionResult<IEnumerable<WcbcoreSanPham>>> GetProducts(int currentPage, int numberOfItem)
+        {
+            return await _context.WcbcoreSanPhams
+                                    .Skip(numberOfItem * (currentPage - 1))
+                                    .Take(numberOfItem)
+                                    .ToListAsync();
+        }
+
+        //Hiện product detail theo id
+        //GET: api/WcbcoreSanPham/GetProductDetail/5
+        [HttpGet("{id}")]
+        public ActionResult<WcbcoreSanPham> GetProductDetails(Guid id)
+        {
+            return _context.WcbcoreSanPhams.Where(x => x.Id == id).FirstOrDefault();
         }
 
         [HttpGet]
